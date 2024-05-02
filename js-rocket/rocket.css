@@ -33,11 +33,12 @@ background-color: rgb(136, 255, 127);
     background-color: blue;
     transition: bottom 1000ms;
 }
+.rocket.flying{
+    bottom: 1000px;
+ }
+ 
 a{
-
-    .rocket.flying{
-bottom: 1000px;
-    }
+   
 }
 
 a.button{
