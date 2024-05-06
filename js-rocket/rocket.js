@@ -4,6 +4,9 @@ var changeState = function (state){
     document.body.className = 'body-state'+
     state;
     clearInterval(timer);
+    cowntdownNumber = 10;
+
+    // cowntdown
     if (state == 2) {
         timer = setInterval(function(){
             document.getElementById('cowntdown').innerHTML = cowntdownNumber;
