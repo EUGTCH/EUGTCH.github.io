@@ -6,9 +6,9 @@ var changeState = function (state){
     clearInterval(timer);
     if (state == 2) {
         timer = setInterval(function(){
-            document.getElementsById('cowntdown').innerHTML = cowntdownNumber;
+            document.getElementById('cowntdown').innerHTML = cowntdownNumber;
             cowntdownNumber = cowntdownNumber-1;
-            if (cowntdownNumber <=) {
+            if (cowntdownNumber <=0) {
                 changeState(3);
             }
         }, 500);
