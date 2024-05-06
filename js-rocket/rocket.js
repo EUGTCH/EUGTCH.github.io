@@ -20,7 +20,7 @@ var success = setTimeout(function()
 //success
 if(randomNumber > 5){
     changeState(4);
-}else{
+}else {
     changeState(5); // oh no!
 }
 }, 2000);

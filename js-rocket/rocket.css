@@ -33,7 +33,8 @@ background-color: rgb(18, 139, 148);
     background-color: blue;
     transition: bottom 10000ms;
 }
-body.body-state3 .rocket{
+body.body-state3 .rocket,
+body.body-state4 .rocket{
     bottom: 1000px;
  }
 
