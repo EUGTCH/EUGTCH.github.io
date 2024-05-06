@@ -5,12 +5,14 @@ var changeState = function (state){
     state;
     clearInterval(timer);
     cowntdownNumber = 10;
+    document.getElementById('cowntdown').innerHTML = cowntdownNumber;
 
     // cowntdown
     if (state == 2) {
         timer = setInterval(function(){
-            document.getElementById('cowntdown').innerHTML = cowntdownNumber;
             cowntdownNumber = cowntdownNumber-1;
+            document.getElementById('cowntdown').innerHTML = cowntdownNumber;
+            
             if (cowntdownNumber <=0) {
                 changeState(3);
             }
